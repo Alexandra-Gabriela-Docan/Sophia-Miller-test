@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alexandra-Gabriela Docan">
+    <meta name="keywords" content="architecture, portfolio, interior design">
+    <meta name="description"
+        content="Sophia Miller is an Interior Designer and this is her portofolio. Step into the world of interior design mastery with Sophia's remarkable collection. Immerse yourself in a showcase of beautifully transformed spaces, each a testament to her passion and talent, and find inspiration for your own design endeavors.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=EB+Garamond:wght@400;500&family=Edu+TAS+Beginner&family=Fredoka:wght@300;400;500&family=Kalam:wght@300;400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Lusitana:wght@400;700&family=Merriweather:wght@300&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <title> Sophia Miller &#183 Interior Designer </title>
+    <link rel="icon" sizes="192x192" href="icons/icon4_SophiaMiller.png">
+    <link rel="icon" href="poze/icon.png">
+
+    <style>
+        nav {
+            box-shadow: 1px 3px 8px black;
+        }
+
+        body {
+            background-color: rgb(250, 250, 250);
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            font-weight: 600;
+        }
+
+        .nav-link {
+            color: rgba(0, 0, 0, 0.753);
+            font-size: large;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: black;
+            font-size: large;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.636);
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.858);
+        }
+
+        @media (max-width: 576px) {
+            .carousel-caption {
+                font-size: 0.3rem;
+                padding: 0.1rem;
+                line-height: 0rem;
+            }
+
+            .carousel-caption h1 {
+                font-size: 0.5rem;
+            }
+
+            .about-me-section col {
+                padding-top: 0px;
+            }
+        }
+
+        .box-shadow {
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.858);
+        }
+
+        .bronze {
+            background: rgb(179, 113, 57);
+            background: linear-gradient(90deg, rgba(179, 113, 57, 1) 1%, rgba(255, 189, 106, 1) 33%, rgba(198, 130, 73, 1) 49%, rgba(255, 189, 106, 1) 64%, rgba(179, 113, 57, 1) 100%);
+        }
+
+        .gold {
+            background: rgb(73, 61, 22);
+            background: linear-gradient(90deg, rgba(73, 61, 22, 1) 1%, rgba(255, 223, 46, 1) 24%, rgba(142, 114, 26, 1) 49%, rgba(255, 223, 46, 1) 75%, rgba(73, 61, 22, 1) 100%);
+        }
+
+        .silver {
+            background: rgb(89, 89, 89);
+            background: linear-gradient(90deg, rgba(89, 89, 89, 1) 1%, rgba(237, 237, 237, 1) 24%, rgba(89, 89, 89, 1) 49%, rgba(237, 237, 237, 1) 75%, rgba(89, 89, 89, 1) 100%);
+        }
+
+        .card-box-shadow {
+            box-shadow: 3px 3px 10px rgb(88, 88, 88);
+        }
+
+        .fredoka {
+            font-family: 'Fredoka', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-secondary text-light  ">
+            <div class="container-fluid">
+
+                <a class="navbar-brand p-0" href="index.html"><img src="poze/Untitled-2.png"
+                        alt="A logo with the name of the interior designer, Sophia Miller.">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#prices">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="carusel/carusel1.jpg" class="d-block w-100"
+                            alt="A house with white walls and a beautiful backyard">
+                        <div class="carousel-caption">
+                            <h1>Sophia Miller</h1>
+                            <p> -Interior Designer-</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="carusel/carusel2.jpg" class="d-block w-100"
+                            alt="A hallway decorated with paintings, a table that has on top of it a little lamp">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="carusel/carusel3.jpg" class="d-block w-100"
+                            alt="A beautiful open-space living room that has a comfy couch with lots of cushions, a kitchen and a table.">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="carusel/carusel4.jpg" class="d-block w-100"
+                            alt="An elegant kitchen with marble accents">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="carusel/carusel5.jpg" class="d-block w-100"
+                            alt="A minimalist bathroom with a view of the ocean.">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="pt-3">
+        <hr class="border border-secondary border-2 opacity-75 d-none d-md-block">
+        <div class="container my-1 px-2" id="about">
+            <p>Welcome to the captivating world of Sophia Miller– where creativity, aesthetics, and innovation merge to
+                transform spaces into breathtaking works of art. With a passion for interior design that transcends the
+                ordinary, Sophia invites you to embark on a visual journey through a portfolio that showcases the magic
+                of
+                turning living spaces into masterpieces.
+
+                Let the images and stories within these virtual walls speak to you, and discover how Sophia Miller can
+                turn
+                your interior design dreams into reality. Welcome to a world of design that inspires, uplifts, and
+                transforms.
+            </p>
+        </div>
+        <hr class="border border-secondary border-2 opacity-75 d-none d-md-block">
+    </div>
+
+    <!-- About section -->
+    <section>
+        <div class="container-fluid  mt-5">
+            <h2 class="text-md-center"> <i class="bi bi-file-person-fill"></i>
+                <u>About</u> <i class="bi bi-file-person-fill"></i>
+            </h2>
+
+            <div class="container-fluid row about-me-section ">
+                <div class="col-sm-12 col-md-7 col-xl-8 text-start mt-lg-8 ">
+                    <div>
+                        <p class="mt-lg-5 ">Greetings, I'm Sophia, and I warmly welcome you to my creative haven – a
+                            portfolio that embodies my
+                            lifelong passion for interior design.
+                        </p>
+                        <p>
+                            Design, for me, is not just about aesthetics; it's a means to weave narratives, evoke
+                            emotions,
+                            and
+                            create spaces that resonate with individuality. With an unwavering love for beauty and an
+                            innate
+                            desire to make the ordinary extraordinary, I've dedicated my life to crafting spaces that
+                            inspire,
+                            comfort, and captivate.
+                        </p>
+                        <p>
+                            Each design within these pages reflects a unique chapter of my journey – from humble
+                            beginnings
+                            to
+                            the culmination of years of dedication. From the delicate balance of colors to the
+                            harmonious
+                            fusion
+                            of textures, every project I undertake is a canvas on which I paint the dreams and desires
+                            of my
+                            clients.
+                        </p>
+                    </div>
+
+                    <!-- Accordion -->
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Educational Background
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            <strong>Bachelor's Degree in Interior Design:</strong> Sophia pursued her
+                                            passion for interior design by
+                                            earning a
+                                            Bachelor's Degree in Interior Design from the renowned School of Design and
+                                            Architecture at
+                                            [Fictional
+                                            University]. This comprehensive program exposed her to fundamental design
+                                            principles, spatial
+                                            planning,
+                                            color theory, and the use of various design software tools.
+                                        </li>
+                                        <li>
+                                            <strong>Master's Degree in Interior Design and BIM Architecture:</strong>
+                                            Building upon her foundation,
+                                            Sophia later
+                                            completed a Master's Degree in Environmental Design, focusing on sustainable
+                                            and eco-friendly design
+                                            solutions. She researched and wrote her thesis on the impact of sustainable
+                                            materials in
+                                            contemporary
+                                            interior design, contributing to the field's sustainability discourse.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Certifications and Additional Training </button>
+                            </h3>
+
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            <strong>Certified Interior Designer (CID):</strong> After completing her
+                                            formal education, Sophia
+                                            obtained her CID
+                                            certification, which required passing a rigorous examination and meeting
+                                            work experience
+                                            requirements.
+                                            This certification established her as a qualified interior design
+                                            professional.
+                                        </li>
+                                        <li>
+                                            <strong>Advanced CAD and 3D Modeling Training:</strong> Sophia invested in
+                                            additional training to
+                                            enhance her
+                                            proficiency
+                                            with Computer-Aided Design (CAD) and 3D modeling software. This expertise
+                                            allows her to create
+                                            detailed,
+                                            realistic visualizations of her design concepts.
+                                        </li>
+
+                                        <li>
+                                            <strong> Education in Trends and Materials:</strong> Sophia is committed to
+                                            staying current in
+                                            the
+                                            ever-evolving world of interior design. She regularly attends workshops,
+                                            seminars, and conferences
+                                            to
+                                            keep abreast of the latest design trends and innovations in materials and
+                                            technology.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Professional Experience
+                                </button>
+                            </h3>
+
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>
+                                            <strong>Internship with a Leading Design Firm:</strong> Sophia gained
+                                            hands-on experience during her
+                                            internship with [Prestigious Design Firm]. There, she worked on high-profile
+                                            residential and
+                                            commercial projects, refining her design skills and learning the intricacies
+                                            of client
+                                            collaboration.
+
+                                        </li>
+                                        <li>
+                                            <strong> Independent Design Consultant:</strong> After completing her
+                                            education and gaining valuable
+                                            experience, Sophia launched her own interior design consultancy. She's
+                                            worked on an array of
+                                            projects, including residential makeovers, office renovations, and
+                                            restaurant redesigns, all of
+                                            which demonstrate her versatile design abilities.
+
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion -->
+                </div>
+
+                <div class="col mt-5 ">
+                    <img src="poze/Sophia Miller.jpg"
+                        alt="A woman with short brown hair wearing a hat and  looking directly at the camera, that is Sophia Miller"
+                        class="img-fluid mx-auto d-block box-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-sm mt-5">
+        <hr class="border border-2 opacity-100 border-secondary">
+    </div>
+
+    <!-- Portfolio section -->
+    <section id="portfolio">
+        <div class="container-fluid mt-5">
+            <h2 class="text-md-center"> <i class="bi bi-image"></i> <u>Gallery</u> <i class="bi bi-image"></i></h2>
+            <p class="lead text-md-center mt-3">Sophia Miller's portfolio is a showcase of her exceptional talent in
+                crafting stylish and functional interior spaces. With a signature blend of creativity and precision,
+                Sophia transforms spaces into personalized havens that captivate and inspire.
+
+            </p>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/exterior-1.jpg" class="card-img-top"
+                            alt="A house with white walls and a beautiful backyard">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Transforming Spaces, Creating Dreams:
+                            </h3>
+                            <p class="card-text">Where Elegance Meets Comfort. Every corner tells a story of meticulous
+                                design and timeless sophistication. Welcome to a home that reflects your unique style
+                                and embraces the art of living beautifully.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/hallway.jpg" class="card-img-top"
+                            alt="A hallway decorated with paintings, a table that has on top of it a little lamp">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka"> Where Every Step Unveils Elegance:</h3>
+                            <p class="card-text"> Behold a hallway transformed into a symphony of design. From ambient
+                                lighting to curated decor, this space invites you to journey through a corridor of style
+                                and sophistication.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/exterior-2.jpg" class="card-img-top"
+                            alt="A house with big windows and a lounge area. ">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka"> Crafting Timeless Spaces:</h3>
+                            <p class="card-text"> This captivating corner seamlessly merges style and comfort,
+                                reflecting the essence of our design philosophy. Each detail is a brushstroke, painting
+                                a story of sophistication and bespoke luxury.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/living-1.jpg" class="card-img-top"
+                            alt="A simple living room with a couch, a table, a lamp and a few plants.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Captivating Comfort:</h3>
+                            <p class="card-text">This living room is a curated haven where luxury meets warmth. From
+                                plush furnishings to thoughtfully designed accents, every element harmonizes to create a
+                                space that whispers welcome and invites relaxation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/living-2.jpg" class="card-img-top"
+                            alt="A beautiful open-space living room that has a comfy couch with lots of cushions, a kitchen and a table.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka"> Luxury Redefined:</h3>
+                            <p class="card-text"> Dive into the heart of comfort and style. This living room is a
+                                testament to the seamless fusion of modern design and timeless elegance. Every detail
+                                curated to create a space that not only captivates but embraces the art of gracious
+                                living.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/living-3.jpg" class="card-img-top"
+                            alt="A comfy living room with 2 armchairs, a table with chairs, a bookshelf and some people.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka"> Seamless Comfort:</h3>
+                            <p class="card-text"> Welcome to a living room where design meets relaxation. Each element
+                                meticulously curated to blend aesthetics with functionality, creating a space that
+                                resonates with warmth and style.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/kitchen-1.jpg" class="card-img-top"
+                            alt="A nice kitchen with a table, chairs, some shelfs and paintings.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Culinary Haven:</h3>
+                            <p class="card-text"> Step into a kitchen that transcends functionality, embracing a
+                                symphony of design and innovation. From sleek surfaces to warm accents, this space
+                                redefines the heart of the home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/kitchen-2.jpg" class="card-img-top"
+                            alt="An elegant kitchen with marble accents and nice lights.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Culinary Canvas:</h3>
+                            <p class="card-text">Where design meets functionality, this kitchen is a masterpiece of form
+                                and purpose. From sleek countertops to ambient lighting, every element is carefully
+                                crafted for a seamless cooking experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/kitchen-3.jpg" class="card-img-top"
+                            alt="A small kitchen with a table, a few chairs, armchairs and a TV.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Gathering Hub:</h3>
+                            <p class="card-text">Designed with the heart of the home in mind, this family kitchen is a
+                                warm embrace of functionality and style. From shared meals to cherished moments, every
+                                detail is crafted for the joy of communal living.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/bathroom-1.jpg" class="card-img-top"
+                            alt="A dark bathroom with a shower, two sinks and a big mirror.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Everyday Elegance:</h3>
+                            <p class="card-text"> Transforming the ordinary into the extraordinary. This bathroom
+                                combines practicality with refined design, turning daily routines into moments of
+                                comfort and style. Discover the beauty in simplicity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/bathroom-2.jpg" class="card-img-top"
+                            alt="A small bathroom with a shower, toilet, sink and a mirror.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka">Serenity Unveiled: </h3>
+                            <p class="card-text"> This bathroom is a sanctuary of relaxation and refined aesthetics.
+                                Immerse yourself in the luxury of thoughtful design, where every detail contributes to
+                                an oasis of tranquility.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="galerie/bathroom-3.jpg" class="card-img-top"
+                            alt="A minimalist bathroom with a view of the ocean.">
+                        <div class="card-body">
+                            <h3 class="card-title text-md-center fredoka"> Effortless Charm:</h3>
+                            <p class="card-text" id="prices">In this thoughtfully designed bathroom, simplicity meets
+                                sophistication. From functional fixtures to subtle accents, discover the beauty of
+                                well-crafted spaces in the heart of daily routines.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-sm mt-5">
+        <hr class="border border-2 opacity-100 border-secondary">
+    </div>
+
+    <!-- Prices -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="mt-5 text-md-center">
+                <h2> <i class="bi bi-cash-coin"></i> <u>Prices</u> <i class="bi bi-cash-coin"></i></h2>
+                <p class="lead text-md-center mt-3">Explore our transparent and tailored pricing to bring your design
+                    dreams to life. Our commitment is to deliver exceptional value, ensuring that every project receives
+                    the meticulous attention it deserves. Discover the perfect package for your vision and embark on a
+                    journey of transformative design with confidence.
+                </p>
+                <h3 class="mt-5 text-md-center">Packages</h3>
+                <div class="col-md-8 text-md-center mx-auto">
+                    <p><em>These three packages provide a range of options, allowing clients to choose the
+                            level of customization and luxury that best fits their vision and budget for a truly bespoke
+                            interior design experience with Sophia Miller.
+                        </em></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5 align-items-center justify-content-center w-100">
+            <div class="col col-10 col-lg-3 my-3 d-flex flex-column">
+                <div class="card border-0 card-box-shadow flex-grow-1">
+                    <div class="card-body text-center p-0">
+                        <h3 class="card-header bronze mb-2">Bronze Elegance Package</h3>
+                        <p class="lead card-subtitle pt-2">An entry-level option for clients seeking style on a budget
+                        </p>
+                        <span class="badge bg-danger">Entry-Level </span>
+                        <img src="poze/bathroom-small.jpg"
+                            alt="A small bathroom with a shower, toilet, sink and a mirror." class="img-fluid p-3">
+                        <p class="display-5 my-4 text-primary fw-bold">>250$</p>
+                        <ul class="text-start text-muted  pb-3">
+                            <li>
+                                <strong>Basic Conceptual Design Board:</strong> Visual representation of color schemes
+                                and basic furnishings
+                            </li>
+                            <li>
+                                <strong>Space Planning:</strong> Efficient layout optimization for functionality
+                            </li>
+                            <li>
+                                <strong>Standard Material and Finish Selection:</strong> Stylish yet cost-effective
+                                options
+                            </li>
+                            <li>
+                                <strong>Email/Phone Consultation:</strong> Regular communication to address client
+                                questions and concerns
+                            </li>
+                        </ul>
+                        <a href="#prices" class="btn btn-outline-primary btn-lg mb-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col col-10 col-lg-4 my-3 d-flex flex-column">
+                <div class="card border-primary card-box-shadow flex-grow-1">
+
+                    <div class="card-body text-center p-0">
+                        <h3 class="card-header gold mb-2">Gold Bespoke Package</h3>
+                        <p class="lead card-subtitle pt-2">A top-tier offering for clients seeking the pinnacle of
+                            luxury and exclusivity</p>
+                        <span class="badge bg-danger fs-6 mt-3">Best Buy</span>
+                        <img src="poze/kitchen-small.jpg" alt="An elegant kitchen with marble accents and nice lights."
+                            class="img-fluid p-3">
+                        <p class="display-5 my-4 text-primary fw-bold">>950$</p>
+                        <ul class="text-start pb-3 pe-1">
+                            <li><strong>Exclusive Design Concept:</strong> Tailored, high-end themes reflecting the
+                                client's unique style
+                            </li>
+                            <li>
+                                <strong>Luxury Material and Finish Selection:</strong> Premium, custom-made choices for
+                                a truly opulent feel.
+                            </li>
+                            <li>
+                                <strong>Artisanal and Custom Furnishings:</strong> Commissioning or sourcing unique,
+                                one-of-a-kind pieces
+
+                            </li>
+                            <li>
+                                <strong>VIP Concierge Service:</strong> Priority communication, on-site visits, and
+                                personal attention throughout the entire design process
+
+                            </li>
+                        </ul>
+                        <a href="#prices" class="btn btn-outline-primary btn-lg mb-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-10 col-lg-3 my-3 d-flex flex-column">
+                <div class="card border-0 card-box-shadow flex-grow-1">
+                    <div class="card-body text-center p-0">
+                        <h3 class="card-header silver mb-2">Silver Signature Package</h3>
+                        <p class="lead card-subtitle pt-2">A mid-range package for clients desiring a personalized touch
+                        </p>
+                        <span class="badge bg-danger"> Most popular</span>
+                        <img src="poze/living-small.jpg"
+                            alt="A simple living room with a couch, a table, a lamp and a few plants."
+                            class="img-fluid p-3">
+                        <p class="display-5 my-4 text-primary fw-bold">>500$</p>
+                        <ul class="text-start text-muted pb-3 pe-1">
+                            <li>
+                                <strong> Detailed Design Concept: </strong>Customized theme reflecting client
+                                preferences.
+                            </li>
+                            <li>
+                                <strong>Premium Material and Finish Selection: </strong> Upgraded choices for a more
+                                refined aesthetic.
+                            </li>
+                            <li>
+                                <strong>Furniture and Decor Coordination:</strong> Curated selections to enhance the
+                                overall design
+                            </li>
+                            <li>
+                                <strong>In-Person Consultation: </strong>Face-to-face meetings to ensure a deeper
+                                understanding of client needs
+                            </li>
+                        </ul>
+                        <a href="#prices" class="btn btn-outline-primary btn-lg mb-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-sm mt-5" id="testimonials">
+        <hr class="border border-2 opacity-100 border-secondary">
+    </div>
+
+    <!-- Testimonials -->
+
+    <section>
+        <div class="container-fluid">
+
+
+
+            <div class="container-fluid">
+                <div class="mt-5 pt-2 text-md-center">
+                    <h2><i class="bi bi-stars"></i><u>Testimonials</u><i class="bi bi-stars"></i></h2>
+                </div>
+            </div>
+
+
+            <div class="row mt-5">
+                <div class=" col col-md-4 d-flex flex-column mb-4">
+                    <div class="card flex-grow-1">
+                        <div class="card-body">
+                            <i class="bi bi-quote fs-2"></i>
+                            <p class="lead">Sophia Miller exceeded our expectations in every way! Her keen eye for
+                                design transformed our living space into a haven of style and comfort. From concept to
+                                execution, Sophia's dedication to perfection truly shines through.</p>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <img src="poze/test-1.jpg"
+                                    alt="A man with the sky in the background, smiling and giving a thumb up."
+                                    class=" rounded-circle mx-auto ">
+                            </div>
+                            <p class=" text-center mt-2"> John Thompson</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" col col-md-4 d-flex flex-column mb-4">
+                    <div class="card flex-grow-1">
+                        <div class="card-body">
+                            <i class="bi bi-quote fs-2"></i>
+                            <p class="lead">Sophia's expertise and flair for design turned our house into a home we
+                                absolutely adore. Her personalized approach, coupled with a meticulous eye for detail,
+                                made the entire collaboration an enriching and delightful experience.</p>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <img src="poze/test-2.jpg"
+                                    alt="A woman with brown hair and wearing a yellow shirt while smiling."
+                                    class=" rounded-circle mx-auto ">
+                            </div>
+                            <p class=" text-center mt-2"> Olivia Turner</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" col col-md-4  d-flex flex-column mb-4">
+                    <div class="card flex-grow-1">
+                        <div class="card-body">
+                            <i class="bi bi-quote fs-2"></i>
+                            <p class="lead">Working with Sophia was an absolute pleasure. She effortlessly captured our
+                                vision and translated it into a stunning reality. Her attention to detail, creativity,
+                                and professionalism made the entire design process enjoyable and stress-free.</p>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <img src="poze/test-3.jpg" alt="A couple of old people, looking happy and playful."
+                                    class=" rounded-circle mx-auto ">
+                            </div>
+                            <p class=" text-center mt-2"> David and Sarah Rodriguez</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" col col-md-4 mx-auto d-flex flex-column">
+                    <div class="card flex-grow-1">
+                        <div class="card-body">
+                            <i class="bi bi-quote fs-2"></i>
+                            <p class="lead">Sophia Miller is a true design virtuoso! Her ability to blend elegance with
+                                functionality is unmatched. Our home now reflects our personality and lifestyle, thanks
+                                to Sophia's exceptional talent and unwavering commitment to delivering excellence.</p>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <img src="poze/test-4.jpg"
+                                    alt="An classy looking woman, dressed in office clothes looking professional."
+                                    class=" rounded-circle mx-auto ">
+                            </div>
+                            <p class=" text-center mt-2"> Jessica Evans</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" col col-md-4 mx-auto d-flex flex-column">
+                    <div class="card flex-grow-1">
+                        <div class="card-body">
+                            <i class="bi bi-quote fs-2"></i>
+                            <p class="lead">Sophia Miller's innovative design solutions brought a refreshing and modern
+                                touch to our living space. Her ability to understand our preferences and seamlessly
+                                incorporate them into the design made the process smooth and enjoyable. </p>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <img src="poze/test-5.jpg"
+                                    alt="A man with short black hair, with his hands crossed and glasses, with a little smile on his lips."
+                                    class=" rounded-circle mx-auto ">
+
+                            </div>
+                            <p class=" text-center mt-2"> James Foster</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="container-sm mt-5" id="testimonials">
+        <hr class="border border-2 opacity-100 border-secondary">
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-dark text-light">
+
+            <div class="row justify-content-between pt-5 mt-5">
+                <div class=" col-md-3">
+                    <h2 class="mb-3">Contact</h2>
+                    <p>
+                        Mobile: (700) 111-111
+                    </p>
+                    <p>
+                        Office: (700) 000-000
+                    </p>
+                    <p>
+                        Email: sophia@sophiamillerdesigns.com
+
+                    </p>
+
+                    <a href="https://www.facebook.com/"><img src="poze/facebook.png" alt="An icon of Facebook"
+                            class="img-fluid"></a>
+                    <a href="https://www.instagram.com/"><img src="poze/instagram (1).png" alt="An icon of Instagram"
+                            class="img-fluid"></a>
+                    <a href="https://www.linkedin.com/"><img src="poze/linkedin (1).png" alt="An icon of LinkedIn"
+                            class="img-fluid"></a>
+
+                </div>
+
+                <div class=" col-md-3 text-center">
+                    <h2 class="mb-3">Policies</h2>
+                    <p>Privacy policy</p>
+                    <p>Terms and conditions</p>
+                    <p>Security</p>
+                </div>
+
+                <div class=" col-md-3 text-end ">
+                    <h2 class="mb-3">Navigation</h2>
+                    <a href="index.html" class="d-block mb-2 text-decoration-none text-light">Home</a>
+
+                    <a href="#about" class="d-block mb-2 text-decoration-none text-light">About</a>
+
+                    <a href="#portfolio" class="d-block mb-2 text-decoration-none text-light">Portfolio</a>
+
+                    <a href="#prices" class="d-block mb-2 text-decoration-none text-light">Prices</a>
+
+                    <a href="#testimonials" class="d-block mb-2 text-decoration-none text-light">Testimonials</a>
+                </div>
+            </div>
+
+            <div class="container mt-5" id="testimonials">
+                <hr class="border border-2 opacity-75 border-light">
+            </div>
+
+            <p class="text-center m-0 pb-3">Copyright © 2023 Alexandra Docan, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
